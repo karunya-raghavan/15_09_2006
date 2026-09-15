@@ -79,14 +79,3 @@ class MyLinkedList:
         current.next = new_node
         self.size += 1
 
-    def deleteAtIndex(self, index):
-        if index < 0 or index >= self.size:
-            return
-        if index == 0:
-            self.head = self.head.next
-        else:
-            current = self.head
-            for _ in range(index - 1):
-                current = current.next
-            current.next = current.next.next
-        self.size -= 1
