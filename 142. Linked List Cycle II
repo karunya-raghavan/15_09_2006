@@ -18,6 +18,7 @@ Input: head = [1], pos = -1
 Output: no cycle
 Explanation: There is no cycle in the linked list.
 
+//code
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head, fast = head;
