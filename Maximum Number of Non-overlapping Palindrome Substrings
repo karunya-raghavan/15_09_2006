@@ -35,12 +35,4 @@ class Solution {
         }
 
         return res;
-    }
-
-    boolean check(String s, int l, int r) {
-        for (; l < r; l++, r--)
-            if (s.charAt(l) != s.charAt(r))
-                return false;
-        return true;
-    }
-}
+    
