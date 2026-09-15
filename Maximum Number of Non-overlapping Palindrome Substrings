@@ -9,3 +9,5 @@ Example 2:
 Input: s = "adbcda", k = 2
 Output: 0
 Explanation: There is no palindrome substring of length at least 2 in the string.
+
+//code
