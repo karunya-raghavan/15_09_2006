@@ -16,11 +16,6 @@ Constraints:
 s consists of lowercase English letters.
 
 //code
-class Solution {
-    public int maxPalindromes(String s, int k) {
-        int n = s.length();
-        if (k == 1)
-            return n;
 
         int res = 0;
 
