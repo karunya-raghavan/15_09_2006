@@ -5,6 +5,11 @@ Explanation:
 The first element output[0] has output[0].val = 1, output[0].next = null.
 The last element output[4] is null, but its string representation as a ListNode is [].
 
+Example 2:
+Input: head = [1,2], pos = 0
+Output: tail connects to node index 0
+Explanation: There is a cycle in the linked list, where tail connects to the first node.
+
 
 //code
 class Solution {
