@@ -10,6 +10,11 @@ Input: s = "adbcda", k = 2
 Output: 0
 Explanation: There is no palindrome substring of length at least 2 in the string.
 
+Constraints:
+
+1 <= k <= s.length <= 2000
+s consists of lowercase English letters.
+
 //code
 class Solution {
     public int maxPalindromes(String s, int k) {
